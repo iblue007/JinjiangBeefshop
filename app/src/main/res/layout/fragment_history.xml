@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/noData"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/consumer_bg"
+        android:gravity="center"
+        android:text="暂无更多数据"
+        android:textSize="@dimen/dimen_14_dp" />
+
+    <com.jinjiang.beefshop.view.recyclerview.OrderSwipeRefreshLayout4Vertical
+        android:id="@+id/lockgp_common_refreshlaout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/history_rv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </com.jinjiang.beefshop.view.recyclerview.OrderSwipeRefreshLayout4Vertical>
+
+
+</RelativeLayout>

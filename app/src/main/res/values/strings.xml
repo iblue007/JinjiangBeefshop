@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">晋江牛肉</string>
+    <string name="settlement">下单</string>
+    <string name="shopping_cart">购物车</string>
+    <string name="service_products">服务产品</string>
+    <string name="business">历史记录</string>
+    <string name="evaluate">设置</string>
+
+    <string name="jjnr_menu_zhushi">主食</string>
+    <string name="jjnr_menu_tanglei">汤类</string>
+    <string name="jjnr_menu_lulei">卤类</string>
+    <string name="jjnr_menu_banlei">拌类</string>
+
+    <string name="number_meal">用餐人数</string>
+
+
+    <string name="jjnr_food_json">{
+    "firstmenu": [
+        {
+            "menuname": "主食"
+        },
+        {
+            "menuname": "汤类"
+        },
+        {
+            "menuname": "卤类"
+        },
+        {
+            "menuname": "拌类"
+        }
+    ],
+    "foodinfos": [
+        {
+            "secondmenu": [
+                {
+                    "foodname": "白饭",
+                    "footprice": "2"
+                },
+                {
+                    "foodname": "咸饭",
+                    "footprice": "5"
+                },
+                {
+                    "foodname": "拌面",
+                    "footprice": "5"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛肉面",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛肉粉",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛杂面",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛杂粉",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛肚面",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛肚粉",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛筋面",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛筋粉",
+                    "footprice": "15"
+                }
+            ],
+            "sencondMenuName": "主食"
+        },
+        {
+            "secondmenu": [
+                {
+                    "addfood": "true",
+                    "foodname": "牛肉丸",
+                    "footprice": "10"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛肉炝",
+                    "footprice": "10"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛肚汤",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛筋汤",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛杂汤",
+                    "footprice": "12"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛百叶汤",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛肉汤",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "牛尾汤",
+                    "footprice": "15"
+                }
+            ],
+            "sencondMenuName": "汤类"
+        },
+        {
+            "secondmenu": [
+                {
+                    "foodname": "卤蛋",
+                    "footprice": "2"
+                },
+                {
+                    "foodname": "卤豆腐",
+                    "footprice": "2"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "卤牛排",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "卤牛筋",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "卤牛蹄",
+                    "footprice": "15"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "卤牛腩",
+                    "footprice": "20"
+                }
+            ],
+            "sencondMenuName": "卤类"
+        },
+        {
+            "secondmenu": [
+                {
+                    "foodname": "拌青菜",
+                    "footprice": "10"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "拌牛筋",
+                    "footprice": "20"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "拌牛肚",
+                    "footprice": "20"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "拌牛百叶",
+                    "footprice": "20"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "拌牛杂",
+                    "footprice": "20"
+                },
+                {
+                    "addfood": "true",
+                    "foodname": "白切牛肉",
+                    "footprice": "20"
+                }
+            ],
+            "sencondMenuName": "拌类"
+        }
+    ]
+}</string>
+
+
+</resources>

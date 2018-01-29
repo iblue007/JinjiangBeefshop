@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/primaryBgColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title"></include>
+
+
+    <RelativeLayout
+        android:id="@+id/buletooth_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="连接蓝牙打印机"
+            />
+        <Switch
+            android:id="@+id/buletooth_switch"
+            android:layout_centerVertical="true"
+            style="@style/widget_gender_switch"
+            android:layout_marginRight="10dp"
+            android:switchMinWidth="25dip"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/buletooth_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_normal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="开启后可连接周围的蓝牙打印机"/>
+
+    <TextView
+        android:id="@+id/bulttooth_alread_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/gray_normal"
+        android:text="已连接设备"/>
+
+    <RelativeLayout
+        android:id="@+id/bulttooth_alread_rl"
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:layout_height="60dip">
+        <TextView
+            android:id="@+id/bulttooth_alread_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:text="扫描设备"/>
+
+        <TextView
+            android:id="@+id/bulttooth_alread_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/bulttooth_alread_name"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:text="设备号"/>
+
+        <ImageView
+            android:id="@+id/bulttooth_alread_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/duigou"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/buletooth_device_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_normal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="可连接设备"/>
+    <ListView
+        android:id="@+id/buletooth_list"
+        android:background="@color/primaryBgColor"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </ListView>
+
+    <include layout="@layout/item_buletoothlist"></include>
+
+
+
+
+
+
+</LinearLayout>

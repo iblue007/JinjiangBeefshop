@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/setting_buletouch"
+        android:textSize="@dimen/dimen_14_dp"
+        android:text="设置蓝牙"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen_10_dp"
+        android:background="@color/consumer_bg"
+        />
+
+
+    <TextView
+        android:background="@color/consumer_bg"
+        android:id="@+id/setting_sp"
+        android:layout_below="@id/setting_buletouch"
+        android:textSize="@dimen/dimen_14_dp"
+        android:text="清空当前排号数"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen_10_dp"
+        />
+
+    <TextView
+        android:background="@color/consumer_bg"
+        android:id="@+id/setting_history_order"
+        android:layout_below="@id/setting_sp"
+        android:textSize="@dimen/dimen_14_dp"
+        android:text="清空历史订单"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen_10_dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/auto_clear_rl"
+        android:layout_below="@id/setting_history_order"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="10dp"
+        android:background="@color/consumer_bg"
+        >
+        <TextView
+            android:id="@+id/auto_clear_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/dimen_14_dp"
+            android:textColor="@color/black"
+            android:text="开启隔天清空数据功能"
+            />
+        <Switch
+            android:id="@+id/auto_clear_switch"
+            android:layout_centerVertical="true"
+            style="@style/widget_gender_switch"
+            android:layout_marginRight="10dp"
+            android:switchMinWidth="25dip"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
